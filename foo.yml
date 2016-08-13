@@ -10,7 +10,5 @@ feign:
 logging:
   level:
     org:
-      springframework:
-        web: DEBUG
-      netflix:
-        hystrix: DEBUG
+      springframework: DEBUG
+      netflix: DEBUG
