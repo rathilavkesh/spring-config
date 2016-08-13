@@ -2,8 +2,11 @@ lavkesh:
   application:
     name: Spring Cloud Demo 1
 
+#Loging config
 logging:
   level:
     org:
       springframework:
         web: DEBUG
+      netflix:
+        hystrix: DEBUG
