@@ -1,6 +1,10 @@
 lavkesh:
   application:
     name: Spring Cloud Demo 1
+    
+feign:
+  hystrix:
+    enabled: false
 
 #Loging config
 logging:
