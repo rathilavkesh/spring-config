@@ -1,3 +1,9 @@
 lavkesh:
   application:
     name: Spring Cloud Demo 1
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
