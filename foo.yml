@@ -1,7 +1,8 @@
 lavkesh:
   application:
     name: Spring Cloud Demo 1
-    
+
+#Feign config    
 feign:
   hystrix:
     enabled: false
