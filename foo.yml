@@ -11,5 +11,5 @@ feign:
 logging:
   level:
     org:
-      springframework: 
-        web: INFO
+      lavkesh: 
+        poc: DEBUG
