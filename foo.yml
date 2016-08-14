@@ -12,5 +12,4 @@ logging:
   level:
     org:
       springframework: 
-        web: DEBUG
-      netflix: INFO
+        web: INFO
