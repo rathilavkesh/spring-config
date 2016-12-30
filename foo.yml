@@ -6,15 +6,6 @@ lavkesh:
 server:
   port: ${APP_PORT}
 
-#Eureka config 
-eureka:
-  client:
-    registry-fetch-interval-seconds: 20
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8761}/eureka/
-  instance:
-    preferIpAddress: true  
-
 #Feign config    
 feign:
   hystrix:
