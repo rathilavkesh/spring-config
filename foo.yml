@@ -2,6 +2,9 @@ lavkesh:
   application:
     name: Spring Cloud Demo 1
 
+server:
+  port: ${APP_PORT}
+
 #Feign config    
 feign:
   hystrix:
